@@ -1,0 +1,210 @@
+/* 1 - Integração inicial*/
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* 2 - Comentarios com CSS*/
+h3 {
+    color: green;
+    text-align: center;
+}
+
+#title {
+    color: blue ;
+    text-align: center;
+}
+
+.text {
+    color: blueviolet;
+    text-align: center;
+}
+.background {
+    background-color: red;
+    color: blue;
+    text-align: center;
+    font-size: 30px
+}
+
+p, 
+.title-small {
+    color: darkblue;
+    text-align: center;
+}
+
+.title-small {
+    font-size: 50px;
+    text-align: center;
+}
+
+.background-image {
+    background-image: url("../img/meteoro.jpg");
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#width-height {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+}
+#padding {
+    background-color: magenta;
+    padding: 20px;
+    text-align: center;
+}
+#margin {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 20px;
+    text-align: center;
+}
+#border {
+    border: 10px solid red;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    margin: 40px;
+    text-align: center;
+}
+
+#border-radius {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 10px dashed red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#rgb, 
+#hsl, 
+#hex {
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+}
+#hex {
+    background-color: #260db4;
+    text-align: center;
+}
+
+#rgb {
+    background-color: rgb(80, 20, 30);
+    text-align: center;
+}
+#hsl {
+    background-color: hsl(100, 30%, 40%);
+    text-align: center;
+}
+
+#center {
+    text-align: center;
+}
+
+p {
+    font-size: 35px;
+    text-align: center;
+}
+
+#underline {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#line {
+    text-decoration: line-through;
+    text-align: center;
+}
+
+#sem-underline {
+    text-decoration: none;
+    text-align: center;
+}
+
+#fonte-pequena {
+    font-size: 100px;
+    text-align: center;
+}
+
+#lower {
+    text-transform: lowercase;
+    text-align: center;
+}
+#upper {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#serif {
+    font-family: Georgia;
+    text-align: center;
+}
+#sansserif {
+    font-family: Helvetica;
+    text-align: center;
+}
+#cursive {
+    font-family: cursive;
+    text-align: center;
+}
+
+.red {
+    width: 50px;
+    height: 50px;
+    background-color:red;
+    margin: 3px;
+    display: inline-block;
+    border-radius: 50px;
+}
+.green {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 2px;
+    align-items: center;
+    border-radius: 10px;
+    display: inline-block;
+}
+.green1 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 10px;
+    display: block
+}
+.green2 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 6px;
+    border-radius: 10px;
+    display: block;
+}
+.green3 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 2px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.green4 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 10px;
+    display: block
+}
+.green5 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 3px;
+    display: table;
+    border-radius: 10px;
+    display: block
+}
